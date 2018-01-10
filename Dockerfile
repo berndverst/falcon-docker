@@ -1,4 +1,4 @@
-FROM python:3.6-slim-stretch
+FROM python:alpine
 
 EXPOSE 80
 
