@@ -2,11 +2,8 @@ FROM python:alpine
 
 EXPOSE 80
 
-# Install gunicorn
-RUN pip install gunicorn
-
-# Install falcon
-RUN pip install falcon
+# Install gunicorn & falcon
+RUN pip install gunicorn falcon
 
 # Add demo app
 COPY ./app /app
